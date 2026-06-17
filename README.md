@@ -1,5 +1,7 @@
 # AML Monitoring Platform
 
+
+[![Coverage](https://img.shields.io/badge/Coverage-JaCoCo-blue?style=flat-square&logo=codecov)](https://github.com/Raphasha27/aml-monitoring-platform/actions)
 [![CI](https://github.com/koketseraphasha/aml-monitoring-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/koketseraphasha/aml-monitoring-platform/actions/workflows/ci.yml)
 
 Anti-Money Laundering monitoring platform. Detects unusual transfer volumes, rapid account activity, structured transactions, and suspicious account relationships.
