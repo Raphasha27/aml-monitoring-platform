@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: aml-monitoring-platform
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/aml-monitoring-platform}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+logging:
+  level:
+    com.banking: INFO
